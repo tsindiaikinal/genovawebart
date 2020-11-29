@@ -1,0 +1,165 @@
+@media screen and (max-width: 1200px) {
+  #slider {
+    max-width: 920px;
+    height: 450px;
+  }
+
+  .header-content {
+    width: 768px;
+  }
+
+  .block-nav a {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #slider {
+    max-width: 768px;
+    height: 350px;
+  }
+
+  header {
+    height: 60px;
+  }
+
+  .header-content {
+    width: 640px;
+  }
+
+  .logo img {
+    width: 76%;
+    height: 55px;
+  }
+
+  .block-nav {
+    padding-top: 10px;
+  }
+
+  .block-nav a {
+    font-size: 0.7rem;
+  }
+
+  nav {
+    padding-top: 5px;
+  }
+
+  .separator {
+    height: 11px;
+    transform: translateY(1px);
+    -webkit-transform: translateY(1px);
+    -moz-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    -o-transform: translateY(1px);
+  }
+
+  .menu-link span {
+    margin-top: 11px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #slider {
+    max-width: 540px;
+    height: 250px;
+  }
+
+  header {
+    height: 50px;
+  }
+
+  .header-content {
+    max-width: 440px;
+  }
+
+  .logo img {
+    width: 65%;
+    height: 45px;
+  }
+
+  .block-nav {
+    padding-top: 8px;
+  }
+
+  .block-nav a {
+    font-size: 0.6rem;
+  }
+
+  .login,
+  .cart {
+    height: 15px;
+    padding: 2px;
+  }
+
+  .separator {
+    height: 8px;
+  }
+
+  nav {
+    padding-top: 0;
+  }
+
+  .menu-link span {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+    #slider {
+    max-width: 100%;
+    height: 250px;
+  }
+
+  /* header {
+    height: 50px;
+  } */
+
+  .header-content {
+    position: relative;
+  }
+
+  /* .logo img {
+    width: 65%;
+    height: 45px;
+  } */
+
+  .block-nav {
+    display: none;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: none;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .block-nav a {
+    font-size: 0.75rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger:checked > .block-nav {
+    display: block;
+  }
+
+  .login,
+  .cart {
+    height: 15px;
+    padding: 1px;
+  }
+
+  .menu {
+    /* background-color: #fff; */
+  }
+
+  .menu-item {
+    display: block;
+  }
+
+  .menu-link span {
+    margin-top: 12px;
+  }
+}
