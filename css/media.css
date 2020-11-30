@@ -24,7 +24,7 @@
   }
 
   .header-content {
-    width: 640px;
+    width: 768px;
   }
 
   .logo img {
@@ -41,26 +41,27 @@
   }
 
   nav {
-    padding-top: 5px;
+    padding-top: 0;
+  }
+
+  nav span {
+    margin-top: 11px;
   }
 
   .separator {
-    height: 11px;
-    transform: translateY(1px);
-    -webkit-transform: translateY(1px);
-    -moz-transform: translateY(1px);
-    -ms-transform: translateY(1px);
-    -o-transform: translateY(1px);
-  }
+    height: 10px;
 
-  .menu-link span {
-    margin-top: 11px;
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    -o-transform: translateY(2px);
+    transform: translateY(2px);
   }
 }
 
 @media screen and (max-width: 768px) {
   #slider {
-    max-width: 540px;
+    max-width: 100%;
     height: 250px;
   }
 
@@ -69,20 +70,45 @@
   }
 
   .header-content {
-    max-width: 440px;
+    width: 100%;
+  }
+
+  .logo {
+    width: 65%;
   }
 
   .logo img {
-    width: 65%;
+    width: 80%;
     height: 45px;
   }
 
   .block-nav {
-    padding-top: 8px;
+    position: absolute;
+    right: 0;
+    left: 0;
+
+    display: none;
+    float: none;
+
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    text-align: center;
+
+    background-color: #fff;
   }
 
   .block-nav a {
     font-size: 0.6rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  #hamburger:checked ~ .block-nav {
+    display: block;
   }
 
   .login,
@@ -91,68 +117,31 @@
     padding: 2px;
   }
 
-  .separator {
-    height: 8px;
-  }
-
-  nav {
-    padding-top: 0;
-  }
-
   .menu-link span {
     margin-top: 10px;
   }
 }
 
 @media screen and (max-width: 540px) {
-    #slider {
-    max-width: 100%;
-    height: 250px;
+  .slide-1 {
+    height: 200px;
   }
-
-  /* header {
-    height: 50px;
-  } */
-
-  .header-content {
-    position: relative;
-  }
-
-  /* .logo img {
-    width: 65%;
-    height: 45px;
-  } */
 
   .block-nav {
-    display: none;
-    width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    float: none;
-    background-color: #fff;
-    text-align: center;
+    height: 130px;
   }
 
   .block-nav a {
     font-size: 0.75rem;
   }
 
-  .hamburger {
-    display: block;
-  }
-
-  .hamburger:checked > .block-nav {
-    display: block;
-  }
-
   .login,
   .cart {
-    height: 15px;
     padding: 1px;
   }
 
-  .menu {
-    /* background-color: #fff; */
+  .separator {
+    height: 12px;
   }
 
   .menu-item {
@@ -161,5 +150,8 @@
 
   .menu-link span {
     margin-top: 12px;
+  }
+  footer {
+    height: 150px;
   }
 }
