@@ -1,11 +1,10 @@
 @media screen and (max-width: 1200px) {
   #slider {
-    max-width: 920px;
     height: 450px;
   }
 
   .header-content {
-    width: 768px;
+    width: 920px;
   }
 
   .block-nav a {
@@ -15,7 +14,6 @@
 
 @media screen and (max-width: 920px) {
   #slider {
-    max-width: 768px;
     height: 350px;
   }
 
@@ -57,6 +55,10 @@
     -o-transform: translateY(2px);
     transform: translateY(2px);
   }
+
+  .menu-link span {
+     margin-top: 13px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -66,7 +68,7 @@
   }
 
   header {
-    height: 50px;
+    height: 55px;
   }
 
   .header-content {
@@ -74,12 +76,12 @@
   }
 
   .logo {
-    width: 65%;
+    width: 55%;
   }
 
   .logo img {
     width: 80%;
-    height: 45px;
+    height: 50px;
   }
 
   .block-nav {
@@ -114,17 +116,17 @@
   .login,
   .cart {
     height: 15px;
-    padding: 2px;
+    line-height: 15px;
   }
 
   .menu-link span {
-    margin-top: 10px;
+    margin-top: 12px;
   }
 }
 
 @media screen and (max-width: 540px) {
   .slide-1 {
-    height: 200px;
+    height: 180px;
   }
 
   .block-nav {
@@ -135,9 +137,14 @@
     font-size: 0.75rem;
   }
 
+  .user-data {
+    padding-bottom: 10px;
+  }
+
   .login,
   .cart {
-    padding: 1px;
+    height: 18px;
+    line-height: 18px;
   }
 
   .separator {
@@ -149,8 +156,9 @@
   }
 
   .menu-link span {
-    margin-top: 12px;
+    margin-top: 14px;
   }
+  
   footer {
     height: 150px;
   }

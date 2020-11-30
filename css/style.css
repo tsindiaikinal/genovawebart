@@ -103,7 +103,7 @@ header {
 
 .hamburger {
   position: absolute;
-  top: 17px;
+  top: 20px;
   right: 15px;
   display: none;
   width: 30px;
@@ -145,8 +145,10 @@ header {
 
   box-sizing: border-box;
   height: 20px;
-  padding: 3px;
-
+  padding-top: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
+  line-height: 20px;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -ms-transition: 0.5s all;
@@ -186,7 +188,8 @@ nav {
 
   width: 0;
   height: 0;
-  margin-top: 13px;
+  margin-top: 14px;
+  
 
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
