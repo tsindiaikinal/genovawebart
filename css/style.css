@@ -110,16 +110,13 @@ header {
   cursor: pointer;
 }
 
-.hamburger span {
-  display: block;
-
+.hamburger div {
   width: 30px;
   height: 2px;
-
   background-color: #2d2d2d;
 }
 
-.hamburger span:nth-last-of-type(2) {
+.hamburger div:nth-last-of-type(2) {
   margin-top: 4px;
   margin-bottom: 4px;
 }
