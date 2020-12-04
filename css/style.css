@@ -30,33 +30,11 @@ li {
 /* GENERAL STYLE END */
 
 .container {
-  position: relative;
   width: 100%;
-  background-image: url("../img/bg.jpg");
-  background-repeat: repeat;
-  background-size: contain;
-  overflow: hidden;
-}
-
-.container::before,
-.container::after {
-  position: absolute;
-  content: "";
-  width: 1000px;
-  height: 1000px;
-  background-image: url(../img/trademark.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.container::before {
-  top: -110px;
-  left: -220px;
-}
-
-.container::after {
-  right: -90px;
-  bottom: -50px;
+  background-image: url(../img/trademark.png), url(../img/trademark.png), url("../img/bg.jpg");
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-size: 50%, 50%, contain;
+  background-position: -200px -90px, 110% 102%, center;
 }
 
 #slider {

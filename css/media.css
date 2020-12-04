@@ -1,5 +1,5 @@
 @media screen and (max-width: 1200px) {
-  .container::before,
+  /* .container::before,
   .container::after {
     width: 800px;
     height: 800px;
@@ -13,7 +13,7 @@
   .container::after {
     right: -80px;
     bottom: 10px;
-  }
+  } */
 
   #slider {
     height: 450px;
@@ -29,7 +29,7 @@
 }
 
 @media screen and (max-width: 920px) {
-  .container::before,
+  /* .container::before,
   .container::after {
     width: 600px;
     height: 600px;
@@ -43,7 +43,7 @@
   .container::after {
     right: -60px;
     bottom: 50px;
-  }
+  } */
 
   #slider {
     height: 350px;
@@ -94,7 +94,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .container::before,
+  /* .container::before,
   .container::after {
     width: 500px;
     height: 500px;
@@ -108,7 +108,7 @@
   .container::after {
     right: -50px;
     bottom: 80px;
-  }
+  } */
 
   #slider {
     max-width: 100%;
@@ -174,7 +174,7 @@
 }
 
 @media screen and (max-width: 540px) {
-  .container::before,
+  /* .container::before,
   .container::after {
     width: 400px;
     height: 400px;
@@ -188,7 +188,7 @@
   .container::after {
     right: -40px;
     bottom: 50px;
-  }
+  } */
 
   .slide-1 {
     height: 180px;
