@@ -1,19 +1,8 @@
 @media screen and (max-width: 1200px) {
-  /* .container::before,
-  .container::after {
-    width: 800px;
-    height: 800px;
+  .container {
+    background-size: 70%, 70%, contain;
+    background-position: -375px 320px, 200% 100%, center;
   }
-
-  .container::before {
-    top: 0;
-    left: -170px;
-  }
-
-  .container::after {
-    right: -80px;
-    bottom: 10px;
-  } */
 
   #slider {
     height: 450px;
@@ -29,21 +18,10 @@
 }
 
 @media screen and (max-width: 920px) {
-  /* .container::before,
-  .container::after {
-    width: 600px;
-    height: 600px;
+  .container {
+    background-size: 70%, 70%, contain;
+    background-position: -280px 220px, 200% 96%, center;
   }
-
-  .container::before {
-    top: -20px;
-    left: -130px;
-  }
-
-  .container::after {
-    right: -60px;
-    bottom: 50px;
-  } */
 
   #slider {
     height: 350px;
@@ -91,24 +69,16 @@
   .menu-link span {
     margin-top: 13px;
   }
+
+  main {
+    height: 1000px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  /* .container::before,
-  .container::after {
-    width: 500px;
-    height: 500px;
+  .container {
+    background-position: -240px 200px, 200% 92%, center;
   }
-
-  .container::before {
-    top: 10px;
-    left: -110px;
-  }
-
-  .container::after {
-    right: -50px;
-    bottom: 80px;
-  } */
 
   #slider {
     max-width: 100%;
@@ -174,21 +144,9 @@
 }
 
 @media screen and (max-width: 540px) {
-  /* .container::before,
-  .container::after {
-    width: 400px;
-    height: 400px;
+  .container {
+    background-position: -170px 120px, 200% 92%, center;
   }
-
-  .container::before {
-    top: -40px;
-    left: -90px;
-  }
-
-  .container::after {
-    right: -40px;
-    bottom: 50px;
-  } */
 
   .slide-1 {
     height: 180px;
@@ -226,7 +184,7 @@
   }
 
   main {
-    height: 1000px;
+    height: 700px;
   }
 
   footer {
